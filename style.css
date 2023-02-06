@@ -1,0 +1,185 @@
+body{
+    background-color: gray;
+           
+}
+.box1{
+    border: 8px solid rgb(245, 54, 54);
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    text-align: center;
+    padding-top: -30px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(63, 7, 63);
+    border-radius: 25px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 10px purple;
+    text-shadow: 1px 1px 3px rgb(116, 15,116);
+    display: inline-block;
+}
+.table{
+    border: 8px solid rgb(245, 54, 54);
+    background-color: rgb(38, 237, 38);
+    color: red;
+    height: 100px;
+    width: 500px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    column-gap: 60px;
+    margin-left: 350px;
+    position: fixed;
+    bottom: 20px;
+    z-index: 1;
+}
+.box2{
+    display: inline-block;
+    border: 8px solid rgb(245, 61, 61);
+    background-color: white;
+    width: 250px;
+    height: 270px;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(64, 4, 64);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px purple;
+    text-shadow: 1px 1px 2px rgb(63, 4, 63);
+    margin-right: 1000px;
+}
+.img{
+    border: 8px solid rgb(245, 61, 61);
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 10px 10px 0px purple;
+    float: right;
+    position: relative;
+    top: -290px;
+    margin-right: 40px;
+    border-left: 1px solid red;
+    border-bottom: 1px solid black;
+}
+.box3{
+    border: 8px solid rgb(245, 61,61);
+    background-color: white;
+    width: 250px;
+    height: 270px;
+    text-align: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(59,3,59);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px purple;
+    text-shadow: 1px 1px 2px rgb(96, 8,96);
+    margin-left: 8px;
+}
+.box4{
+    border: 8px solid rgb(245, 61,61);
+    background-color: white;
+    width: 250px;
+    height: 270px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* font-size: 23px; */
+    font-weight: bold;
+    color: rgb(73,2,73);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px purple;
+    text-shadow: 1px 1px 2px rgb(96, 8,96);
+    float: right;
+    position: relative;
+    top: -350px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+#rate{
+    width: 100px;
+    text-align: center;
+}
+#btn{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(248, 9, 9);
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 5px; */
+    cursor: pointer;
+    border-radius: 10px;
+}
+.total{
+    border: 11px solid green;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: -90px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-items{
+    border: 1px solid purple;
+    background-color: rgb(209, 209,95);
+    color: black;
+    margin: 5px;
+    margin-bottom: 5px;
+    height: 300px;
+    width: 420px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    
+}
+.flex-items
+{
+    border: 1px solid purple;
+    background-color: rgb(209, 209,95);
+    color: black;
+    margin: 5px;
+    margin-bottom: 5px;
+    height: 300px;
+    width: 523px;
+    padding-left: -10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    position: relative;
+}
+.flex-items1{
+    border: 1px solid purple;
+    background-color: rgb(209, 209,95);
+    height: 330px;
+    width: 940px;
+}
+.parent{
+    border: 8px solid purple;
+    background-color: darkgreen;
+   /* display: flex; */
+    position: absolute;
+    height: 750px;
+    width: 940px;
+    font-size: 20px;
+    text-align: center;
+    
+    /* font-style: italic; */
+    margin-top: 130px;
+    margin-left: 200px;
+}
